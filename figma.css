@@ -1,0 +1,76 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::after, *::before {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(figma_image/bg.png);
+    background-size: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 1060px;
+    margin: 0 auto;
+}
+
+header {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list__item {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.header__list {
+    display: flex;
+    flex-direction: row;
+    gap: 40px
+}
+
+.header__contacts {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header__contacts__button {
+    width: 215px;
+    height: 55px;
+    border-radius: 7px;
+    background-color: #5BBFC8;
+    margin-left: 15px;
+    color: #000;
+text-align: center;
+font-family: Manrope;
+font-size: 16px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+
+}
+
+.header__contacts__number {
+    font-weight: 500; 
+
+}
+
+.welcome {
+
+}
